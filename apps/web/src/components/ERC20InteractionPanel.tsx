@@ -18,7 +18,7 @@ import {
     ChevronDown,
     ChevronUp
 } from 'lucide-react';
-import { cn } from './cn';
+import { cn } from '@/lib/utils';
 import { useAccount, useWalletClient, usePublicClient, useSwitchChain } from 'wagmi';
 import { arbitrum, arbitrumSepolia } from 'viem/chains';
 import type { Chain } from 'viem';
